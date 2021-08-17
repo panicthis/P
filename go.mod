@@ -2,4 +2,10 @@ module github.com/panicthis/P
 
 go 1.17
 
-require github.com/panicthis/T v0.0.0-20210817053212-4dff466ae56d
+require github.com/panicthis/T v0.0.0-20210817053751-5b67aaa655ba
+
+require (
+	github.com/cespare/xxhash/v2 v2.1.1 // indirect
+	github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
+	github.com/go-redis/redis/v8 v8.11.3 // indirect
+)
